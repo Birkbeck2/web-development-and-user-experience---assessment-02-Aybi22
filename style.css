@@ -517,13 +517,14 @@ body.gallery{
         padding:10px;
         background-image:linear-gradient(to right, blue, white);
         flex: 1;
+        max-width: 100%;
         
 }
 
 
 
 .img_food{
-           max-width:25%;
+           max-width:35%;
 }
 
 
@@ -545,8 +546,8 @@ body.gallery{
 
                    border:none;/*remove default button border*/
                    background:#FF00FF;
-                   padding:10px;
-                   max-width:200px;
+                   padding:5px;
+                   max-width:100px;
                    color:#FFFFFF;
                    display: block;/*put the button on the next line*/
                    margin: 50px;/*align the button 40px from the top and in the center of its container*/
@@ -564,8 +565,10 @@ body.gallery{
               to  {background-color: #9ACD32;}
 }
 
-
-
+.menu-food_wrapper{
+                    display:flex;
+                    flex-direction:column;
+}
 
 
 .txt_column{
@@ -748,8 +751,7 @@ input{
                              display:flex;
                              flex-direction:column;
                              
-                             margin:0;
-                             padding:0px;
+                            
                              
                       }
 
