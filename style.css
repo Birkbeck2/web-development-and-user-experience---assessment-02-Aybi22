@@ -34,6 +34,7 @@ body{
         padding:0; /* no padding*/
         font-family: 'Caramel', cursive; ;
         width: 100%;  /* full width*/
+        overflow:scroll;
         
        }
      
@@ -65,7 +66,17 @@ a{
              text-transform:capitalize;
  }
   
-  .red{
+  
+ .breadcrum a{
+        background:var(--black);
+        padding:10px;
+        color:var(--white);
+}
+ 
+ 
+ 
+ 
+ .red{
         color:var(--red);
         font-weight:bold;
   }
@@ -786,7 +797,7 @@ input{
 @media screen and (max-width:600px){
 
         form{
-                margin:auto;
+                margin:0;
                 padding:5px;
                 width:100%;
         }
