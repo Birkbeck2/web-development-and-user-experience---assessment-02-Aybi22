@@ -147,7 +147,7 @@ footer{
  
  header{
         
-        background-image: linear-gradient(to right, blue ,white);
+        background-image: linear-gradient(to right, var(--blue) ,var(--white));
         background-size: cover;
         display:flex;/*creating a flex container*/
         
