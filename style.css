@@ -524,34 +524,33 @@ body.gallery{
 
 
 .img_food{
-           max-width:35%;
+           max-width:85%;
 }
 
 
 
 .menu_container{
                   
-                  display:flex;
-                  flex-wrap: wrap;
-                  width:90%;
+                  display:grid;
+                  grid-template-columns: 1fr 1fr;
+                  max-width:90%;
                   gap:10px;
-                  justify-content: center;
                   background-color:var(--pink);
-                  padding:20px 10px;
+                  padding:15px;
 }
 
 
 
-.menu_container button{
+.img_food button{
 
                    border:none;/*remove default button border*/
                    background:#FF00FF;
                    padding:5px;
-                   max-width:100px;
+                   max-width:150px;
                    color:#FFFFFF;
                    display: block;/*put the button on the next line*/
                    margin: 50px;/*align the button 40px from the top and in the center of its container*/
-                   font-size:22px;
+                   font-size:15px;
                    font-weight:900;/*create a good contrast with background-color*/
                    animation-name:btn;
                    animation-iteration-count: infinite;
@@ -578,6 +577,15 @@ body.gallery{
         
 
 }
+
+
+.img_food img{
+               display:block;
+               width:100%;
+
+}
+
+
 
 .txt{
         flex:1;/*take the space and push the next div at the bottom of the container*/
@@ -750,6 +758,7 @@ input{
                       .img_food{
                              display:flex;
                              flex-direction:column;
+                              width: 100%;
                              
                             
                              
