@@ -268,7 +268,7 @@ nav li{
             
 nav a{
      text-decoration:none;
-     color:black;
+     color:var(--black);
      font-weight:900;
      text-transform:capitalize;
      padding:15px;
