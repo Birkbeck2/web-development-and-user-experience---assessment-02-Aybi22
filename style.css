@@ -93,6 +93,7 @@ a{
                   "footer footer footer footer";
                    background-image: linear-gradient(to right,var(--lightseagreen), var(--white));
                    max-width:100%;
+                   height:100vh;
               
                }
 
@@ -480,7 +481,33 @@ body.gallery{
  
  /*MENU CSS*/
 
-        .txt{
+        
+ 
+ 
+ body.menu{
+        margin:0;
+        padding:0;
+        background-image: url('images/food-2362678_1920.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        font-family: 'Caramel', cursive; ;
+        width: 100%;
+       
+       }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .txt{
         
         font-size:25px;
         font-weight:900;
