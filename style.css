@@ -228,7 +228,7 @@ footer{
  
 nav{
         
-    background-image: linear-gradient(to right,#20B2AA, white);
+    background-image: linear-gradient(to right,var(--lightseagreen), var(--white));
     max-width:100%;
     position:sticky;/*navbar stays static while content is scrolled*/
     top:0;
