@@ -283,7 +283,7 @@ nav a{
             
 nav a:hover{
             border-bottom: 3px solid var(--yellowgreen);
-            color:red;
+            color:var(--red);
                          
             }
             
@@ -303,10 +303,13 @@ nav a:hover{
             
 .dropmenu a{
            display:block;
+          
 }
             
 .dropmenu:hover .dropmenu-items{
                                display:block;
+                               
+
 }
     
     
@@ -517,7 +520,7 @@ body.gallery{
         font-weight:900;
         padding:10px;
         background-image:linear-gradient(to right, blue, white);
-        flex: 1;
+        flex:1;
         max-width: 100%;
         
 }
@@ -537,7 +540,7 @@ body.gallery{
                   row-gap: 10px;
                   max-width:90%;
                   margin:auto;
-                  background-color:var(--pink);
+                  
                   padding:15px;
 }
 
