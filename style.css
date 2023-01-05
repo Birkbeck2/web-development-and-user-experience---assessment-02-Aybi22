@@ -403,7 +403,39 @@ main{
  
 /*GALLERY CSS*/
 
- .grid_menu{
+ 
+
+
+body.gallery{
+        margin:0;
+        padding:0;
+        background-image: url('images/eclair-3366430_1920.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        font-family: 'Caramel', cursive; ;
+        width: 100%;
+       
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid_menu{
             
             width:100%; /*set the width of the grid container*/
             grid-template-columns: repeat(3,  1fr);/*set number of columns*/
