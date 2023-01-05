@@ -731,9 +731,13 @@ input{
              display:flex;
              flex-direction: column;
              padding:10px;
-             font-size: 15px;
+             
 }
         
+         .logo{
+                font-size: 15px;  
+         }
+
 }
 
 
