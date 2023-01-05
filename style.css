@@ -23,7 +23,7 @@ box-sizing: border-box;
     --lightseagreen:#20B2AA;
     --green:#008000;
     --gainsboro:#DCDCDC;
-
+    --red:#FF0000;
 }    
 
 
@@ -534,7 +534,7 @@ body.gallery{
                   display:grid;
                   grid-template-columns: 1fr 1fr;
                   max-width:90%;
-                  gap:10px;
+                  margin:auto;
                   background-color:var(--pink);
                   padding:15px;
 }
@@ -544,9 +544,9 @@ body.gallery{
 .img_food button{
 
                    border:none;/*remove default button border*/
-                   background:#FF00FF;
-                   padding:5px;
-                   max-width:150px;
+                   background:var(--black);
+                   padding:10px;
+                   max-width:250px;
                    color:#FFFFFF;
                    display: block;/*put the button on the next line*/
                    margin: 50px;/*align the button 40px from the top and in the center of its container*/
@@ -560,14 +560,11 @@ body.gallery{
 
 @keyframes btn{
 
-             from{background-color:#FF00FF;}
-              to  {background-color: #9ACD32;}
+             from{background-color:var(--black);}
+              to  {background-color: var(--red);}
 }
 
-.menu-food_wrapper{
-                    display:flex;
-                    flex-direction:column;
-}
+
 
 
 .txt_column{
@@ -585,6 +582,11 @@ body.gallery{
 
 }
 
+.img_food p {
+              color:var(--red);
+              background: var(--white);
+              text-align: center;
+}
 
 
 .txt{
