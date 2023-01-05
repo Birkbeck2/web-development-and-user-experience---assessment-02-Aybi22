@@ -24,6 +24,7 @@ box-sizing: border-box;
     --green:#008000;
     --gainsboro:#DCDCDC;
     --red:#FF0000;
+
 }    
 
 
@@ -533,6 +534,7 @@ body.gallery{
                   
                   display:grid;
                   grid-template-columns: 1fr 1fr;
+                  row-gap: 10px;
                   max-width:90%;
                   margin:auto;
                   background-color:var(--pink);
@@ -570,7 +572,7 @@ body.gallery{
 .txt_column{
          display:flex;
          flex-direction: column;
-         max-width: 100%;
+         
         
 
 }
@@ -583,9 +585,10 @@ body.gallery{
 }
 
 .img_food p {
-              color:var(--red);
+              color:var(--black);
               background: var(--white);
               text-align: center;
+              font-size: 25px;
 }
 
 
