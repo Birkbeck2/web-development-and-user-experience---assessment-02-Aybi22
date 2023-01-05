@@ -602,6 +602,24 @@ body.gallery{
 /*CONTACT CSS*/
 
 
+
+body.contact{
+        margin:0;
+        padding:0;
+        background-image:url('images/canape-2802_1920.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        font-family: 'Caramel', cursive; ;
+        width: 100%;
+        
+       }
+
+
+
+
+
+
 .info_contact{
                background:var(--white);
                padding:10px;
