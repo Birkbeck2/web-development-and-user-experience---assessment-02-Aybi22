@@ -731,7 +731,7 @@ input{
 
 }
 
-/*sets a column for navigation elements*/
+/*sets one column for navigation elements*/
 @media screen and (max-width:600px){
                                   nav ul{
                                   display:flex;
@@ -741,7 +741,7 @@ input{
 
 }
 
-/*displaying header elements as column*/
+/*displaying header elements as column at this breakpoint*/
 
 @media screen and (max-width:600px){
         header{
@@ -779,7 +779,7 @@ input{
         form{
                 margin:auto;
                 padding:5px;
-                width:300px;
+                width:100%;
         }
 
        form input{
