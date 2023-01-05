@@ -58,8 +58,17 @@ a{
         padding:10px;
 
  } 
+
+
+ .breadcrum{
+             margin-left:30px;
+             text-transform:capitalize;
+ }
   
-  
+  .red{
+        color:var(--red);
+        font-weight:bold;
+  }
   /* making responsive images*/
   
   img{
