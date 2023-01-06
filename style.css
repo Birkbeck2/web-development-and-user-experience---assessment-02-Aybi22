@@ -544,7 +544,7 @@ body.gallery{
  body.menu{
         margin:0;
         padding:0;
-        background-image: url('images/food-2362678_1920.jpg');
+        
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -865,6 +865,7 @@ input{
                  width:auto;
                  padding:0;
                  
+                 
         }
 
          .top_right_image{
@@ -874,6 +875,16 @@ input{
 }
 
 
+@media screen and (max-width:700px){
+        body{
+                 margin:0;
+                 
+                 
+                 
+        }
+
+         
+}
 
 
 
