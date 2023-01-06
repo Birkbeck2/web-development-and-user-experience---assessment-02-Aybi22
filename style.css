@@ -97,7 +97,9 @@ a{
         display:block;
 
  }
-  
+ img:hover{
+          filter:brightness(65%);
+ } 
  
  article{
         background-image: linear-gradient(to right,#20B2AA, white) ;
@@ -432,16 +434,17 @@ main{
                padding:10px;
 }
 
-.right > .index_box{
+.right  .index_box{
           padding:20px;
-          margin-bottom: 120px;
+          margin-bottom: 100px;
 }
+
 
 
 .square{
         position:absolute;
-        color:darkblue;
-        background:white;
+        color:var(--darkblue);
+        background:var(--white);
         bottom:-20px;
         text-transform:uppercase;
         width:80%;
@@ -455,9 +458,10 @@ main{
         display:flex;
         flex-direction:column;
         justify-content:center;
-        box-orient:vertical;
-        box-shadow: 2px 1px 4px  gain;
-   
+        font-weight: 900;
+        box-shadow: 2px 1px 4px var(--gainsboro);
+        
+        
        }
  
  
