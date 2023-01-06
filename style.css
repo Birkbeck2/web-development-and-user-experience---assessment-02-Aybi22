@@ -183,6 +183,15 @@ footer{
                
 }
  
+ .wrapper_right{
+               display:flex;
+ }
+ .top_right img{
+                margin:7px;
+                border-radius:100%;
+                width:360px;
+ }
+ 
  
  header{
         
@@ -200,7 +209,9 @@ footer{
             align-items:center;
  }
  
- 
+.top_right li:nth-child(4){  /*styling fourth element of the list*/
+        color: var(--red);
+ }
  
 .left_header{
                color:var(--white);
