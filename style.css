@@ -821,7 +821,7 @@ input{
         
         form p{
                 display: flex;
-                flex-direction:column;
+                flex-direction:column; /*displaying form elements in column*/
         }
 }
 
