@@ -366,7 +366,9 @@ nav a:hover{
         padding:10px;
 }     
  
- 
+ nav a hover:nth-child(5){
+           text-decoration:none;
+ }
  
  /*END OF GENERAL CSS*/
 
@@ -865,7 +867,9 @@ input{
                  
         }
 
-         
+         .top_right_image{
+                           margin-top:80px;
+         }
 
 }
 
