@@ -423,7 +423,42 @@ main{
           
 }
  
- 
+
+.index_box{
+          position:relative;
+          
+}
+.left >article{
+               padding:10px;
+}
+
+.right > .index_box{
+          padding:20px;
+          margin-bottom: 120px;
+}
+
+
+.square{
+        position:absolute;
+        color:darkblue;
+        background:white;
+        bottom:-20px;
+        text-transform:uppercase;
+        width:80%;
+        padding:22px;
+        cursor:pointer;
+        text-align:center;
+        left:0;
+        right:0;
+        opacity:1;
+        margin:0 auto;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        box-orient:vertical;
+        box-shadow: 2px 1px 4px  gain;
+   
+       }
  
  
  footer{
