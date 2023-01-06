@@ -124,8 +124,8 @@ a{
                    background-image: linear-gradient(to right,var(--lightseagreen), var(--white));
                  
                      /*grid container to occupy the maximum viewport height*/
-              
-                   
+                     min-height: 100vh;
+                    
                   
                 
                 
@@ -133,10 +133,9 @@ a{
 
 
 .page-container{
-                /* takes the full page width*/
+                /* takes the full page height*/
                  opacity:87%;
-                 
-                 position:relative;
+                 min-height: 100vh;
                  
                  
                 }
@@ -464,17 +463,7 @@ main{
  
 
 
-body.gallery{
-        margin:0;
-        padding:0;
-        background-image: url('images/eclair-3366430_1920.jpg');
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        font-family: 'Caramel', cursive; ;
-        
-       
-       }
+
 
 
 
@@ -541,17 +530,7 @@ body.gallery{
         
  
  
- body.menu{
-        margin:0;
-        padding:0;
-        
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        font-family: 'Caramel', cursive; ;
-        width: 100%;
-       
-       }
+
  
  
  
@@ -671,19 +650,18 @@ body.gallery{
 
 /*CONTACT CSS*/
 
-
-
 body.contact{
         margin:0;
         padding:0;
-        background-image:url('images/canape-2802_1920.jpg');
+        background-image: url('images/sushi-354628_1920.jpg');
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
         font-family: 'Caramel', cursive; ;
-        max-height: 100vh;
-        width: 100%;
+        
+       
        }
+
 
 html{
         height:100%;
