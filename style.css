@@ -122,11 +122,11 @@ a{
                 }
 
 
-.page-container{
+#page-container{
                  width:100%; /* takes the full page width*/
                 opacity:87%;
                  border: 10px solid red;
-                 height:2500px;
+                 position:relative;
                  
                 }
 
