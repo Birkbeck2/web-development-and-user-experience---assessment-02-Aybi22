@@ -264,11 +264,11 @@ nav{
         
     background-image: linear-gradient(to right,var(--lightseagreen), var(--white));
     max-width:100%;
-    position:sticky;/*navigation stays static w content is scrolled*/
+    position:sticky;/*defining sticky navigation bar*/
     top:0;
     grid-area: nav;
     padding: 20px;
-    z-index:1;
+    z-index:1;/*defining the order of the navigation bar items*/
     margin-bottom: 25px;
     
                
