@@ -703,8 +703,8 @@ main{
                    color:var(--red);
 }
 
-.contact_section a:visited{
-        color:var(--gainsboro);
+.contact_section a:active{
+        color:var(--yellowgreen);
 }
 
 .info_contact{
