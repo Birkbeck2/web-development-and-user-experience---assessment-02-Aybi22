@@ -2,10 +2,10 @@
 
 /*GENERAL CSS*/
 
-/*including padding and border in width and height*/
+
 
 *{
-box-sizing: border-box;  
+box-sizing: border-box;  /*including padding and border in width and height*/
        
 }
     
@@ -30,43 +30,35 @@ box-sizing: border-box;
 
 
 html, body{
-        margin:0; /* no margin */
+        margin:0; /*no margin*/
         padding:0; /* no padding*/
-        font-family: 'Caramel', cursive; ;
+        font-family: 'Caramel', cursive; ;/*defining page font family*/
         width: 100%;  /* full width*/
-        min-height:100vh; /* streching body to full viewport */
-        }
+        min-height:100vh; /* stretching body height to full viewport */
+        
+}
      
-   html{
-        
-        
-   }    
-       
-       
-       
-       
-       
-       /* removing text decoration from link elements*/   
-  
-a{
-        text-decoration:none;
-        color:var(--black);
+    
+      
+  a{
+        text-decoration:none; /* removing  default links text decoration */ 
+        color:var(--black);  /* defining black as color for all the link elements */ 
   }
   
-  /* defining titles font*/
+  /* defining heading styles*/
   
-  h1,h2,h3{
+  h1,h2,{
            font-weight:900;
-           text-transform: capitalize;
+           text-transform:capitalize;
            
   }
  
- p{
+ 
+  /* defining paragraphs style*/
+  p{
         font-size:20px;
-       
         padding:10px;
-
- } 
+} 
 
 
  .breadcrum{
@@ -92,13 +84,14 @@ a{
   }
   /* making responsive images*/
   
-  img{
+img{
         max-width:100%;
         display:block;
 
  }
  img:hover{
-          filter:brightness(65%);
+          filter:brightness(65%);/* setting image brightness*/
+  
  } 
  
  article{
@@ -124,23 +117,16 @@ a{
                   "aside main main right"
                   "footer footer footer footer";
                    background-image: linear-gradient(to right,var(--lightseagreen), var(--white));
-                 
-                     /*grid container to occupy the maximum viewport height*/
-                     min-height: 100vh;
+                   min-height: 100vh;/*grid container to occupy the maximum viewport height*/
                     
-                  
-                
-                
-                }
+}
 
 
 .page-container{
-                /* takes the full page height*/
-                 opacity:87%;
-                 min-height: 100vh;
+              
+                  min-height: 100vh;/* takes the full viewport height*/
                  
-                 
-                }
+                 }
 
  /* styling footer*/
 
@@ -159,8 +145,8 @@ footer{
  /* defining social media elements as flex items*/
 .social-media{
             display:flex;
-            gap:50px;
-            align-items: center;
+            gap:50px;/*defining space between flex items*/
+            align-items: center;/*center the alignements for the items of the flex container*/
        }
 
 .me{
@@ -449,7 +435,7 @@ main{
 .square{
         position:absolute;
         color:var(--white);
-        background:var(--white);
+        
         bottom:-20px;
         text-transform:uppercase;
         width:80%;
@@ -458,14 +444,11 @@ main{
         text-align:center;
         left:0;
         right:0;
-        opacity:1;
         margin:0 auto;
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
+        
         font-weight: 900;
-        box-shadow: 2px 1px 4px var(--gainsboro);
-        background-image: linear-gradient(to right,blue, white);
+        box-shadow: 2px 1px 4px var();
+        background-image: linear-gradient(to right,var(--darkblue), var(--blue));
         
        }
  
