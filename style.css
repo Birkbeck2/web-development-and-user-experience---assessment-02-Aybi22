@@ -570,23 +570,7 @@ main{
  
  /*MENU CSS*/
 
-        
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- .txt{
+.txt{
         
         font-size:25px;
         font-weight:900;
@@ -600,7 +584,8 @@ main{
 
 
 .img_food{
-           max-width:85%;
+           max-width:90%;
+           margin:auto;
 }
 
 
@@ -611,8 +596,9 @@ main{
                   grid-template-columns: 1fr 1fr;
                   row-gap: 10px;
                   max-width:90%;
-                  margin:auto;
+                  margin:auto;/*center the menu container*/
                   
+                  background-color: var(--pink);
                   padding:15px;
 }
 
