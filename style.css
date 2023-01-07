@@ -693,25 +693,19 @@ main{
 
 /*CONTACT CSS*/
 
-body.contact{
-        margin:0;
-        padding:0;
-        background-image: url('images/sushi-354628_1920.jpg');
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        font-family: 'Caramel', cursive; ;
-        
+
        
-       }
-
-
-html{
-        height:100%;
+.contact_section a{
+                   text-decoration: underline;  /*specifying that it is a link*/
 }
 
+.contact_section a:hover{
+                   color:var(--red);
+}
 
-
+.contact_section a:visited{
+        color:var(--gainsboro);
+}
 
 .info_contact{
                background:var(--white);
