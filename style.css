@@ -612,9 +612,9 @@ main{
                    max-width:250px;
                    color:#FFFFFF;
                    display: block;/*put the button on the next line*/
-                   margin: 50px;/*align the button 40px from the top and in the center of its container*/
+                   margin: 50px;
                    font-size:15px;
-                   font-weight:900;/*create a good contrast with background-color*/
+                   font-weight:900;
                    animation-name:btn;
                    animation-iteration-count: infinite;
                    animation-duration:1s;
