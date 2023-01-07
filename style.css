@@ -150,7 +150,7 @@ footer{
        }
 
 .me{
-        margin-left:auto; /* places the element on the right part of its container*/
+        margin-left:auto; /* pushing the element on the right part of its container*/
         font-size:34px;
         font-weight: 900;
         text-transform: uppercase;
@@ -163,16 +163,17 @@ footer{
             text-decoration:none;
             color:var(--white);
             list-style: none;
-            border-radius:15px;
+           
                
 }
  
  .wrapper_right{
-               display:flex;
+               display:flex;/*creating flex container*/
  }
  .top_right img{
                 margin:7px;
                 border-radius:100%;
+                max-width:80%; /* image to occupy a maximum of 80% space in the container*/
                 
  }
  
@@ -184,7 +185,7 @@ footer{
         display:flex;/*creating a flex container*/
         flex-wrap: wrap; /* allowing flex items to wrap if there is no space available*/
         grid-area:header;
-        width:100%;
+        width:100%;/* setting maximum width*/
                 
   }
  
@@ -193,7 +194,7 @@ footer{
             align-items:center;
  }
  
-.top_right li:nth-child(4){  /*styling fourth element of the list*/
+.top_right li:nth-child(4){  /*styling the fourth element of the ordered list*/
         color: var(--red);
  }
  
@@ -201,7 +202,7 @@ footer{
                color:var(--white);
                background:var(--black);
                padding:12px;
-               width:250px;
+               max-width:250px;
                text-align:center;
                text-transform:uppercase;
                font-weight: 900;
@@ -212,9 +213,9 @@ footer{
  /* creating an animation*/
  .tip{
         animation-name: tip;
-        animation-iteration-count: infinite; /*degfining non stop animation*/
+        animation-iteration-count: infinite; /*defining non-stop animation*/
         animation-duration: 2s;
-        position: relative;
+        position: relative;/*positioning the element relatively*/
         font-size: 30px;
         
 }
@@ -263,22 +264,22 @@ nav{
         
     background-image: linear-gradient(to right,var(--lightseagreen), var(--white));
     max-width:100%;
-    position:sticky;/*navbar stays static while content is scrolled*/
+    position:sticky;/*navigation stays static w content is scrolled*/
     top:0;
     grid-area: nav;
     padding: 20px;
-    z-index:1;/*allow elements with relative position to scroll under the navbar*/
+    z-index:1;
     margin-bottom: 25px;
     overflow: hidden;
                
 }
             
 nav ul{
-      display:flex;/*defining navbar as a flex container*/
+      display:flex;/*defining navigation bar as a flex container*/
       flex-wrap:wrap;
-      justify-content: space-around;
+      justify-content: space-around;/*creating space before, between and after flex items*/
       align-items: center;
-      max-width:90%;
+      max-width:90%;/*setting maximum width*/
       margin:0;
       padding:0;             
 }
