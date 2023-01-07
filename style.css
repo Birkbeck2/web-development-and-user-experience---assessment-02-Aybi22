@@ -447,7 +447,7 @@ main{
 
 .square{
         position:absolute;
-        color:var(--darkblue);
+        color:var(--white);
         background:var(--white);
         bottom:-20px;
         text-transform:uppercase;
