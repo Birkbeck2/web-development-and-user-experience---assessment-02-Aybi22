@@ -47,7 +47,7 @@ html, body{
   
   /* defining heading styles*/
   
-  h1,h2,{
+  h1,h2{
            font-weight:900;
            text-transform:capitalize;
            
@@ -157,10 +157,7 @@ footer{
        }
  
  
-       h3{
-        margin:20px;
-}
-  
+      
    
 .left_header a {
             text-decoration:none;
@@ -233,9 +230,9 @@ footer{
         text-align:center;
         text-transform:uppercase;
         color:var(--black);
-        text-shadow:3px 4px 5px;
+        text-shadow:3px 4px 5px var(--black);
         letter-spacing: 12px;
-        flex: 1;
+        flex: 1; /*takes the available space*/
         
 }
  
@@ -311,7 +308,6 @@ nav li{
 
 nav a{
      text-decoration:none;
-     color:var(--black);
      font-weight:900;
      text-transform:capitalize;
      padding:15px 14px;
@@ -345,8 +341,7 @@ nav a:hover:not(.btn){/*button not selected to be styled like the nav elements o
             
 .dropmenu a{
            display:block;
-          
-}
+        }
             
 .dropmenu:hover .dropmenu-items{
                                display:block;
@@ -373,7 +368,7 @@ nav a:hover:not(.btn){/*button not selected to be styled like the nav elements o
 aside{
      grid-area:aside;
      padding:5px;
-     background-image: linear-gradient(to right,#20B2AA, white);
+     background-image: linear-gradient(to right,var(--lightseagreen) var(--white));
      max-width:90%;
      margin-left:25px;
 
@@ -445,9 +440,8 @@ main{
         left:0;
         right:0;
         margin:0 auto;
-        
         font-weight: 900;
-        box-shadow: 2px 1px 4px var();
+        box-shadow: 2px 1px 4px var(--gainsboro);
         background-image: linear-gradient(to right,aqua, green);
         
        }
