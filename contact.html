@@ -66,23 +66,40 @@
 </header>
   
   
+<!--navigation bar-->
 
 <nav>
 
-  <ul>
-    <!---->
+  <ul> <!-- unordered list-->
+    
     <li><a href="index.html">
-        <span class="fa-solid fa-house" style="font-size:23px; color:white"></span>   Home
+        <span class="fa-solid fa-house" style="font-size:23px; color:white"></span>   Home <!--styling icons-->  
     </a>
 </li>
    
-    
-    <li><a href="menu.html">
+    <!-- dropdown menu-->
+<div class="dropmenu"> 
+    <a href="menu.html">
         <span class="fa-solid fa-utensils"    style="font-size:23px; color:white"></span>  menu
+    </a>
+
+    <!-- dropdown list-->
     
-    </a></li>
+    <div class="dropmenu-items">
+      <a href="#">sushi</a>
+      <a href="#">berries</a>
+       <a href="#">ramen</a>
+       <a href="#">sish kebab</a>
+       <a href="#">noodles</a>
+       <a href="#">eclair</a>
    
-    <li><a href="gallery.html">
+    </div>
+  </div>
+  
+  
+  <!--closing dropdown menu-->  
+    
+<li><a href="gallery.html">
         
         <span class="fa-regular fa-images"  style="font-size:23px; color:white"></span>  gallery
     
@@ -96,13 +113,25 @@
 
 </li>
     
-<button type="button" class="btn">order here</button>
+
+
+<div class="header_right">
+    
+  <div class="search-section">
+    <span class="fas fa-arrow-right  tip"></span>
+
+  </div>
 
 
 
-</ul>
+<li> <a class="btn" href="menu.html">order here</a> </li> <!--creating a button-->  
+
+  </ul> <!--closing unodered list-->  
 
 </nav>
+<!--closing  navigation bar section-->
+
+
 
 <div class="breadcrum">
 
