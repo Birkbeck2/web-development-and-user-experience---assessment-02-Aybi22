@@ -283,7 +283,7 @@ nav{
     position:sticky;/*navbar stays static while content is scrolled*/
     top:0;
     grid-area: nav;
-    padding-top:25px;
+    padding:25px 20px;
     z-index:1;/*allow elements with relative position to scroll under the navbar*/
     margin-bottom: 25px;
     
@@ -312,17 +312,23 @@ nav ul{
      font-size:23px;
 }
             
-  /*removing links bullets*/       
+
+
+
+/*removing links bullets*/       
 nav li{
        list-style: none;
 }
             
+
+
+
 nav a{
      text-decoration:none;
      color:var(--black);
      font-weight:900;
      text-transform:capitalize;
-     padding:15px;
+     padding: 10px;
      text-transform:uppercase;
      display: block;
      font-size: 12px;
@@ -330,11 +336,11 @@ nav a{
      font-size:19px;
 }
             
-nav a:hover{
-            border-bottom: 3px solid var(--yellowgreen);
-            color:var(--red);
-                         
-            }
+nav a:hover:not(.btn){/*button not selected to be styled like the nav elements on hover*/ 
+        border-bottom: 3px solid var(--yellowgreen);
+        color:var(--red);
+                     
+        }
             
       
 .dropdmenu {
@@ -367,9 +373,7 @@ nav a:hover{
         padding:10px;
 }     
  
- nav a hover:nth-child(5){
-           text-decoration:none;
- }
+ 
  
  /*END OF GENERAL CSS*/
 
@@ -460,7 +464,7 @@ main{
         justify-content:center;
         font-weight: 900;
         box-shadow: 2px 1px 4px var(--gainsboro);
-        
+        background-image: linear-gradient(to right,blue, white);
         
        }
  
