@@ -110,7 +110,7 @@ img{
                    grid-template-areas:
                   "header header header header" 
                   "nav nav nav nav"
-                  "aside main main right"
+                 "aside main main right"
                   "aside main main right"
                   "aside main main right"
                   "footer footer footer footer";
