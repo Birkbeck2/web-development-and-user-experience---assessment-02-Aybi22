@@ -276,7 +276,7 @@ nav{
             
 nav ul{
       display:flex;/*defining navigation bar as a flex container*/
-      flex-wrap:wrap;
+      flex-wrap:wrap;/*wrapping flex items when no space ais available*/
       justify-content: space-around;/*creating space before, between and after flex items*/
       align-items: center;
       max-width:90%;/*setting maximum width*/
@@ -299,21 +299,21 @@ nav ul{
 
 
 
-/*removing links bullets*/       
+/*removing  default list bullets*/       
 nav li{
        list-style: none;
 }
             
 
 
-
+/*styling navigation bar hyperlinks*/
 nav a{
      text-decoration:none;
      font-weight:900;
      text-transform:capitalize;
      padding:15px 14px;
      text-transform:uppercase;
-     display: block;
+     display: block;/*defining block elements to set width and height*/
      font-size: 12px;
      font-family: 'Caramel', cursive;
      font-size:19px;
@@ -417,8 +417,8 @@ main{
           position:relative;
           
 }
-.left >article{
-               padding:10px;
+.left article{
+               padding:10px;/*all the articles of the left section to have a 10px padding*/
 }
 
 .right  .index_box{
@@ -563,8 +563,8 @@ main{
 
 
 .img_food{
-           max-width:90%;
-           margin:auto;
+           max-width:90%;/*setting maximum width to 90% of its container*/
+           margin:auto;/*center content*/
 }
 
 
@@ -585,7 +585,7 @@ main{
 
 .img_food button{
 
-                   border:none;/*remove default button border*/
+                   border:none;/*removing default button border*/
                    background:var(--black);
                    padding:10px;
                    max-width:250px;
@@ -612,9 +612,6 @@ main{
 .txt_column{
          display:flex;
          flex-direction: column;
-         
-        
-
 }
 
 
@@ -633,7 +630,7 @@ main{
 
 
 .txt{
-        flex:1;/*take the space and push the next div at the bottom of the container*/
+        flex:1;/*takes the space and pushes the next div at the bottom of the container*/
         max-width:100%;
 }
 
@@ -681,14 +678,13 @@ main{
 
 
 
-
+/*defining label and input as flex items*/
 form p{
         display:flex;
         padding:5px;
         align-items:center;
        
-        
-      }
+}
       
       form{
            margin:auto;
