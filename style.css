@@ -28,7 +28,6 @@ box-sizing: border-box;  /*including padding and border in width and height*/
 }    
 
 
-
 html, body{
         margin:0; /*no margin*/
         padding:0; /* no padding*/
@@ -41,7 +40,7 @@ html, body{
     
       
   a{
-        text-decoration:none; /* removing  default links text decoration */ 
+        text-decoration:none; /* removing  default hyperlinks text decoration */ 
         color:var(--black);  /* defining black as color for all the link elements */ 
   }
   
@@ -781,7 +780,7 @@ input{
 }
         
          .logo{
-              font-size: 40px;  /*resizing logo size to its container at this breakpoint*/
+              font-size: 40px;  /*resizing logo size */
  
          }
 
@@ -791,7 +790,8 @@ input{
 
 @media screen and (max-width:600px){
 
-                      .img_food{
+                                /*displaying flex items in column */
+                         .img_food{
                              display:flex;
                              flex-direction:column;
                               width: 100%;
@@ -877,7 +877,7 @@ input{
                  
                  
         }
-
+            /*defining 1 column and 6 rows at this breakpoint */
         .grid-container{
 
                 grid-template-areas:
