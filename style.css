@@ -338,8 +338,8 @@ nav a:hover:not(.btn){/*button not selected to be styled like the nav elements o
 .dropmenu-items{
                 position:absolute;
                 display:none;
-                background-color: white;
-            
+                background-color:var(--white);
+                
 }
             
             
@@ -448,7 +448,7 @@ main{
         
         font-weight: 900;
         box-shadow: 2px 1px 4px var();
-        background-image: linear-gradient(to right,var(--darkblue), var(--blue));
+        background-image: linear-gradient(to right,aqua, green);
         
        }
  
