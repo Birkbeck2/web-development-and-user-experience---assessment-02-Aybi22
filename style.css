@@ -283,10 +283,10 @@ nav{
     position:sticky;/*navbar stays static while content is scrolled*/
     top:0;
     grid-area: nav;
-    padding:25px 20px;
+    padding: 20px;
     z-index:1;/*allow elements with relative position to scroll under the navbar*/
     margin-bottom: 25px;
-    
+    overflow: hidden;
                
 }
             
@@ -328,12 +328,13 @@ nav a{
      color:var(--black);
      font-weight:900;
      text-transform:capitalize;
-     padding: 10px;
+     padding:15px 14px;
      text-transform:uppercase;
      display: block;
      font-size: 12px;
      font-family: 'Caramel', cursive;
      font-size:19px;
+     border-bottom:3px solid transparent;/*transparent border-bottom*/ 
 }
             
 nav a:hover:not(.btn){/*button not selected to be styled like the nav elements on hover*/ 
