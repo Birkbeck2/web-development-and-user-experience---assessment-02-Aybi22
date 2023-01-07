@@ -94,7 +94,7 @@ img{
  } 
  
  article{
-        background-image: linear-gradient(to right,#20B2AA, white) ;
+        background-image: linear-gradient(to right,var(--green),var(--white)) ;
         width:100%; /*article to occupy the  maximum width in their container*/
 
  }
