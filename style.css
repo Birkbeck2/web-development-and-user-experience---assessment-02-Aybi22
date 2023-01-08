@@ -457,74 +457,10 @@ main{
  
  
  
-/*GALLERY CSS*/
-
- 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.grid_menu{
-            
-            max-width:100%; /*defining the width of the grid container*/
-            grid-template-columns: repeat(3,  1fr);/*defining number of columns*/
-            display:grid;
-            gap:10px;/*set the space between grid items*/
-            height:auto;
-           
-}
-
- 
- .grid_menu_wrapper h2{
-                text-shadow:2px 3px 1px  var(--black);
-                color: var(--white);
-                background-color:var(--black);
-                max-width:500px;/*defining maximum width*/
-                margin:auto;
-                padding:10px;
-                text-align:center;
-                margin-bottom:10px;
-}
- 
- 
- 
- 
- .grid_menu_wrapper{
-        background:gainsboro;
-       
-        width:100%;/*wrapping the grid container*/
-        
-        padding:15px;
-}
- 
- /*END OF GALLERY CSS*/
- 
- 
- 
- 
- 
- 
- 
- 
- 
- /*MENU CSS*/
+/*MENU CSS*/
 
 .txt{
         
@@ -624,12 +560,83 @@ main{
 
 
 /*END OF MENU CSS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*GALLERY CSS*/
+
+ .grid_menu{
+            
+            max-width:100%; /*defining the width of the grid container*/
+            grid-template-columns: repeat(3,  1fr);/*defining number of columns*/
+            display:grid;
+            gap:10px;/*set the space between grid items*/
+            height:auto;
+           
+}
+
+ 
+ .grid_menu_wrapper h2{
+                text-shadow:2px 3px 1px  var(--black);
+                color: var(--white);
+                background-color:var(--black);
+                max-width:500px;/*defining maximum width*/
+                margin:auto;
+                padding:10px;
+                text-align:center;
+                margin-bottom:10px;
+}
  
  
-
-
-
-
+ 
+ 
+ .grid_menu_wrapper{
+        background:gainsboro;
+       
+        width:100%;/*wrapping the grid container*/
+        
+        padding:15px;
+}
+ 
+ /*END OF GALLERY CSS*/
+ 
+ 
+ 
+ 
+ 
 /*CONTACT CSS*/
 
 
