@@ -262,7 +262,7 @@ nav ul{
       padding:0;             
 }
             
-            
+  /*styling button*/          
 .btn{
      background-color:var(--seagreen);
      color:var(--white);
