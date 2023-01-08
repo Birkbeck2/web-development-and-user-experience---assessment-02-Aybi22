@@ -430,8 +430,8 @@ main{
  footer{
         
         grid-area: footer;
-        background:#20B2AA;
-        color:#FFFFFF;
+        background:var(--green);
+        color: var(--white);
         text-align:center;
         padding:17px;
         font-weight:bold;
