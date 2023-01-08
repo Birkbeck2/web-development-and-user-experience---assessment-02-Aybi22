@@ -305,7 +305,7 @@ nav a:hover:not(.btn){/*button not selected to be styled like the nav elements o
             
    /*defining dropdown menu*/   
 .dropdmenu {
-           display:inline-block;
+           
            position:relative;
 }
 
@@ -314,14 +314,17 @@ nav a:hover:not(.btn){/*button not selected to be styled like the nav elements o
                 display:none; /*elements not appearing on the page*/
                 background-color:var(--white);
                 
+                
 }
             
             
-.dropmenu a{
+.dropmenu-items a{
            display:block;/*displaying items as block elements*/
+           padding:20px;
+           font-size:16px;
         }
             
-.dropmenu:hover .dropmenu-items{
+.dropmenu:hover  .dropmenu-items{
                                display:block;
                                
 
