@@ -469,7 +469,7 @@ main{
         font-size:25px;
         font-weight:900;
         padding:10px;
-        background-image:linear-gradient(to right, blue, white);
+        background-image:linear-gradient(to right, var(--blue), var(--white));
         flex:1;
         max-width: 100%;
         
