@@ -257,8 +257,8 @@ nav ul{
       justify-content: space-around;/*creating space before, between and after flex items*/
       align-items: center;/*controlling flex items alignement*/
       max-width:90%;/*setting maximum width*/
-      margin:0;
-      padding:0;             
+      margin:0;/*no margin*/
+      padding:0; /*no padding*/            
 }
             
   /*styling button*/          
