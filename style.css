@@ -504,7 +504,7 @@ main{
                    background:var(--black);
                    padding:10px;
                    max-width:250px;
-                   color:#FFFFFF;
+                   color:var(--white);
                    display: block;/*put the button on the next line*/
                    margin: 50px;
                    font-size:15px;
