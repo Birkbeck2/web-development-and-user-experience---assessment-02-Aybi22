@@ -675,7 +675,7 @@ form p{
 form button{
              border:none;
              background-color:var(--black);
-             color:#fff;
+             color:var(--seagreen);
              padding:10px;
              width:130px;
              text-transform:uppercase;
