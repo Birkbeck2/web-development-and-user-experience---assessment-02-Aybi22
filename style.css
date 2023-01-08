@@ -688,9 +688,9 @@ form button{
       
 .message-box{
            padding:50px;
-           resize:vertical;
+           resize:vertical;/* resizing box width*/
            overflow:hidden;
-           border:1px solid gainsboro;
+           border:1px solid var(--gainsboro);
            
 }
       
