@@ -221,7 +221,6 @@ footer{
         width:200px;
         padding:12px;
         text-align: center;
-        font-family: 'Caramel', cursive;
         font-weight:900;
         text-transform:uppercase;
         margin-right:10px;
@@ -237,14 +236,14 @@ footer{
 }
  
  
- 
+ /*defining  navigation bar*/
 nav{
         
     background-image: linear-gradient(to right,var(--lightseagreen), var(--white));
     max-width:100%;
     position:sticky;/*defining sticky navigation bar*/
     top:0;
-    grid-area: nav;
+    grid-area: nav;/*indicating grid area*/
     padding: 20px;
     z-index:1;/*defining the order of the navigation bar items*/
     margin-bottom: 25px;
