@@ -518,7 +518,7 @@ main{
 @keyframes btn{
 
              from{background-color:var(--black);}
-              to  {background-color: var(--red);}
+             to  {background-color: var(--red);}/*changing background color*/
 }
 
 
@@ -551,7 +551,7 @@ main{
 
 
 .price{
-          background:#2E8B57;
+          background:var(--seagreen);
           font-size:20px;
           text-align:center;
           padding:12px;
@@ -577,28 +577,7 @@ main{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /*GALLERY CSS*/
+/*GALLERY CSS*/
 
  .grid_menu{
             
@@ -626,7 +605,7 @@ main{
  
  
  .grid_menu_wrapper{
-        background:gainsboro;
+        background:var(--gainsboro);
        
         width:100%;/*wrapping the grid container*/
         
@@ -675,7 +654,7 @@ form p{
       form{
            margin:auto;
            width:700px;
-           background-color:pink;
+           background-color:var(--pink);
            padding:13px;
            font-family:verdana;
             
@@ -695,7 +674,7 @@ form p{
       
 form button{
              border:none;
-             background-color:rgb(455, 122, 46);
+             background-color:var(--black);
              color:#fff;
              padding:10px;
              width:130px;
