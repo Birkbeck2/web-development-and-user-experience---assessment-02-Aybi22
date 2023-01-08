@@ -276,7 +276,7 @@ nav ul{
 
 
 
-/*removing  default list bullets*/       
+/*removing  default list bullet points*/       
 nav li{
        list-style: none;
 }
@@ -318,7 +318,7 @@ nav a:hover:not(.btn){/*button not selected to be styled like the nav elements o
             
             
 .dropmenu a{
-           display:block;/*displaying items as blocks elements*/
+           display:block;/*displaying items as block elements*/
         }
             
 .dropmenu:hover .dropmenu-items{
