@@ -60,27 +60,7 @@ html, body{
 } 
 
 
- .breadcrum{
-             margin-left:30px;
-             text-transform:capitalize;
- }
-  
-  
- .breadcrum a{
-        display:inline;
-        background:var(--black);
-        padding:10px;
-        color:var(--white);
-
-}
  
- 
-
- 
- .red{
-        color:var(--red);
-        font-weight:bold;
-  }
   /* making responsive images*/
   
 img{
