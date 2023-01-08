@@ -303,7 +303,7 @@ nav a:hover:not(.btn){/*button not selected to be styled like the nav elements o
                      
         }
             
-      
+   /*defining dropdown menu*/   
 .dropdmenu {
            display:inline-block;
            position:relative;
