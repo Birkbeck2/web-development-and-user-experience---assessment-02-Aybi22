@@ -372,7 +372,7 @@ main{
  }
 
  .top_right{
-        background-image: linear-gradient(to right,var(--lightseagreen) var(--green)) ;
+        background-image: linear-gradient(to right,var(--lightseagreen), var(--green)) ;
        margin-right:35px;
       
        
