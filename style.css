@@ -329,7 +329,7 @@ nav a:hover:not(.btn){/*button not selected to be styled like the nav elements o
     
     
 .about{
-        line-height: 22px;
+        line-height:32px; /*setting vertical distance between lines*/
         padding:10px;
 }     
  
