@@ -311,14 +311,14 @@ nav a:hover:not(.btn){/*button not selected to be styled like the nav elements o
 
 .dropmenu-items{
                 position:absolute;
-                display:none;
+                display:none; /*elements not appearing on the page*/
                 background-color:var(--white);
                 
 }
             
             
 .dropmenu a{
-           display:block;
+           display:block;/*displaying items as blocks elements*/
         }
             
 .dropmenu:hover .dropmenu-items{
