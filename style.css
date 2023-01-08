@@ -409,8 +409,7 @@ main{
 .square{
         position:absolute;
         color:var(--white);
-        
-        bottom:-20px;
+        bottom:-20px;/*setting negative padding*/
         text-transform:uppercase;
         width:80%;
         padding:22px;
