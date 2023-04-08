@@ -1,0 +1,150 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: verdana;
+   
+}
+
+body{
+    width:100%;
+    background:gainsboro;
+    
+}
+
+
+.container{
+           
+         background-image:linear-gradient(to right,beige, gainsboro);
+         padding: 60px;
+         margin-top:50px;
+          
+            
+}
+ul{
+    text-align:center;
+}
+
+li {
+    list-style:none;
+    display:inline-block;
+   
+    
+}
+a{
+    color:orange;
+    text-transform:uppercase;
+    padding:10px;
+    text-decoration:none;
+    
+
+}
+
+a:hover{
+     color:darkblue;
+}
+
+
+.me img{
+    border-radius: 100%;
+}
+
+.title{
+         font-size:45px;
+         text-transform: uppercase;
+         text-align:center;
+         font-weight:900;
+         
+}
+
+.me{
+    display:flex;
+    align-items: center;
+}
+
+
+span{
+     
+     font-size:20px;
+     padding: 12px;
+     text-transform:uppercase;
+     color: orange;
+     font-weight: 900;
+   
+    
+}
+
+h1{
+    
+  
+  text-align: center;
+  text-transform:capitalize;
+   padding: 5px;
+   
+   
+    }
+
+
+
+
+    .gallery{
+       width:90%;
+       margin:auto;
+}
+.model{
+       font-size:12px;
+       color:darkblue;
+       
+       font-weight: 900;
+}
+
+
+
+
+
+
+
+    h2{
+    
+    box-shadow: 2px 3px 2px black;
+    width:500px;
+    margin-bottom: 23px;
+    text-align:center;
+    margin-top: 23px;
+    background-image:linear-gradient(to right,beige, gainsboro);
+    padding:13px;
+   
+}
+footer{
+        
+        padding:14px;
+}
+header{
+    position:sticky;
+    top:0;
+    box-shadow: 4px 6px 5px black;
+    padding:14px;
+    display:flex;
+    background-image:linear-gradient(to right,beige, gainsboro);
+   
+    align-items:center;
+    justify-content:space-around;
+}
+p{
+    margin:auto;
+    font-size:20px;
+    box-shadow: 4px 6px 5px black;
+   width:50%;
+   background-image:linear-gradient(to right,beige, gainsboro);
+    margin-top:25px;
+   padding:15px;
+   text-align:center;
+}
+
+.flex{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+}
+footer{
+         text-align:center;
+}
