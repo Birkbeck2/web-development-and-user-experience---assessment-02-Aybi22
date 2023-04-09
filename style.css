@@ -85,7 +85,7 @@ span{
 .link{
       text-transform:lowercase;
       margin-top:50px;
-      color:darkblue;
+      font-size:13px;
       font-weight:900;
 }
 
