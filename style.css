@@ -90,9 +90,9 @@ h1{
    color:white;
    background:black;
    padding:10px;
-   text-shadow:2px 4px 3px white;
+   text-shadow:2px 2px 3px white;
    
-  
+  text-transform: uppercase;
    
    
     }
