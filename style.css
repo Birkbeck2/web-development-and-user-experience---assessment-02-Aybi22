@@ -1,5 +1,3 @@
-
-
 /*GENERAL CSS*/
 
 
@@ -372,7 +370,7 @@ main{
  }
 
  .top_right{
-        background-image: linear-gradient(to right,var(--lightseagreen), var(--green)) ;
+        background-image: linear-gradient(to right,var(--lightseagreen) var(--seagreen)) ;
        margin-right:35px;
       
        
@@ -518,7 +516,7 @@ main{
 @keyframes btn{
 
              from{background-color:var(--black);}
-             to  {background-color: var(--red);}/*changing background color*/
+              to  {background-color: var(--red);}
 }
 
 
@@ -551,7 +549,7 @@ main{
 
 
 .price{
-          background:var(--seagreen);
+          background:#2E8B57;
           font-size:20px;
           text-align:center;
           padding:12px;
@@ -577,7 +575,28 @@ main{
 
 
 
-/*GALLERY CSS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*GALLERY CSS*/
 
  .grid_menu{
             
@@ -605,7 +624,7 @@ main{
  
  
  .grid_menu_wrapper{
-        background:var(--gainsboro);
+        background:gainsboro;
        
         width:100%;/*wrapping the grid container*/
         
@@ -654,7 +673,7 @@ form p{
       form{
            margin:auto;
            width:700px;
-           background-color:var(--pink);
+           background-color:pink;
            padding:13px;
            font-family:verdana;
             
@@ -674,8 +693,8 @@ form p{
       
 form button{
              border:none;
-             background-color:var(--black);
-             color:var(--seagreen);
+             background-color:rgb(455, 122, 46);
+             color:#fff;
              padding:10px;
              width:130px;
              text-transform:uppercase;
@@ -688,9 +707,9 @@ form button{
       
 .message-box{
            padding:50px;
-           resize:vertical;/* resizing box width*/
+           resize:vertical;
            overflow:hidden;
-           border:1px solid var(--gainsboro);
+           border:1px solid gainsboro;
            
 }
       
