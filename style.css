@@ -176,8 +176,11 @@ footer{
 }
 
 .text{
-      color:black;
+      color:white;
       text-transform:lowercase;
+      font-size:19px;
+      background:black;
+      padding:11px;
 }
 
 
