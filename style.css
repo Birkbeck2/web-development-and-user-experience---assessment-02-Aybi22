@@ -172,5 +172,14 @@ p{
 footer{
          text-align:center;
          background:gainsboro;
-         margin-top:25px;""
+         margin-top:25px;
+}
+.animate_section{
+                display:flex;
+
+}
+.special{
+           font-family:Tangerine;
+           width:300px;
+           text-align:center;
 }
