@@ -178,9 +178,10 @@ footer{
 .text{
       color:white;
       text-transform:lowercase;
-      font-size:19px;
+      font-size:14px;
       background:black;
       padding:11px;
+      margin-bottom:35px;
 }
 
 
