@@ -167,6 +167,8 @@ p{
    text-align:center;
 }
 
+
+
 .flex{
       display:grid;
       grid-template-columns: 1fr 1fr;
@@ -199,4 +201,5 @@ footer{
            font-family:Tangerine;
            width:300px;
            text-align:center;
+           margin-bottom:20px
 }
