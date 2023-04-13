@@ -167,7 +167,9 @@ p{
    text-align:center;
 }
 
-
+.top{
+    width:900px;
+}
 
 .flex{
       display:grid;
