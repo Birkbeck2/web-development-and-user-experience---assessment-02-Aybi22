@@ -10,16 +10,31 @@ body{
     background:gainsboro;
     
 }
+img{
+    max-width:100%;
+    width:100%;
+   height:auto;
+    object-fit: cover;
+    display:block;
 
+    
+}
 
 .container{
            
          background-image:linear-gradient(to right,beige, gainsboro);
          padding: 60px;
          margin-top:50px;
-          
+         border: 4px solid red;
+         max-width: 300px;
+         width:100%;
+        
             
 }
+
+
+
+
 .animate{ 
 
     margin:auto;
@@ -60,6 +75,8 @@ a:hover{
          font-size:45px;
         text-transform: uppercase;
          text-align:center;
+         max-width:600px;
+         width:100%;
          
          
 }
@@ -111,8 +128,9 @@ h1{
 
 
     .gallery{
-       width:90%;
+       max-width:90%;
        margin:auto;
+       width:100%;
 }
 .model{
        font-size:12px;
@@ -132,7 +150,8 @@ h1{
     h2{
     
     box-shadow: 2px 3px 2px black;
-    width:500px;
+    max-width:500px;
+    width:100%;
     margin-bottom: 23px;
     text-align:center;
     margin-top: 23px;
@@ -152,6 +171,8 @@ header{
     padding:14px;
     display:flex;
     background-image:linear-gradient(to right,beige, gainsboro);
+    max-width:100%;
+    width:100%;
    
     align-items:center;
     justify-content:space-around;
@@ -168,13 +189,15 @@ p{
 }
 
 .top{
-    width:1500px;
+   max-width:1500px;
+   width:100%;
 }
 
 .flex{
       display:grid;
       grid-template-columns: 1fr 1fr;
       gap:45px;
+      border:4px solid blue;
 }
 footer{
          text-align:center;
@@ -184,7 +207,8 @@ footer{
 
 .text{
       color:white;
-      width:350px;
+      max-width:350px;
+      width:100%;
       font-size:14px;
       background:orange;
       padding:11px;
@@ -206,4 +230,28 @@ footer{
            width:300px;
            text-align:center;
            margin-bottom:20px
+}
+
+.info{
+    max-width:500px;
+    width:100%;
+    border:4px solid green;
+}
+.text{
+    width:400px;
+    width:100%;
+}
+
+
+@media screen and (max-width:560px){
+    header{
+        flex-direction:column;
+    }
+.flex{
+    grid-template-columns: 1fr;
+}
+.me{
+    display:flex;
+    flex-direction:column;
+} 
 }
