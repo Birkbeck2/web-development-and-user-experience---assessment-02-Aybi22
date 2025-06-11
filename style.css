@@ -20,6 +20,13 @@ body{
           
             
 }
+
+img{
+    max-width:100%;
+    width:100%;
+    object-fit:cover;
+    display:flex;
+}
 .animate{ 
 
     margin:auto;
@@ -52,14 +59,14 @@ a:hover{
 }
 
 
-.me img{
-    border-radius: 100%;
-}
+
 
 .title{
-         font-size:45px;
+         font-size:3.5rem;
         text-transform: uppercase;
          text-align:center;
+         max-width:600px;
+         width:100%;
          
          
 }
@@ -168,7 +175,8 @@ p{
 }
 
 .top{
-    width:1500px;
+   max-width:1500px;
+   width:100%;
 }
 
 .grid-container{
@@ -202,7 +210,7 @@ footer{
 }
 
 .grid-container img{
-    width:600px;
+    max-width:600px;
     height:800px;
     object-fit: cover;
     display:block;
@@ -229,4 +237,19 @@ footer{
         display:grid;
         grid-template-columns: 1fr;
     }
+   header{
+    display:flex;
+    flex-direction:column;
+   }
+.title{
+    font-size:2rem;
+    width:70%;
+}
+  .top{
+    width:70%;
+  }
+ img{
+    width:300px;
+    height:auto;
+ }
 }
