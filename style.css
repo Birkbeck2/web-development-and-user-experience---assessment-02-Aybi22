@@ -18,11 +18,13 @@ body,html{
 .container{
            
          background:#F5F5DC;
-     
          margin-top:50px;
-          
-            
-}
+          }
+
+
+          p{
+            line-height:1.6;
+          }
 
 img{
     max-width:100%;
