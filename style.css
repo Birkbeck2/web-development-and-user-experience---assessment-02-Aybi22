@@ -308,6 +308,8 @@ h1{
     font-size:1rem !important;
   
 }
+
+
 ul a{
     font-size:0.7rem;
 }
@@ -385,7 +387,7 @@ footer p{
    }
 .title{
     font-size:2rem;
-    max-width:80%;
+    max-width:100%;
 }
   .top{
     max-width:80%;
